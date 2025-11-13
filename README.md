@@ -12,7 +12,7 @@ Your goal as a team is to:
 
 ---
 
-## 🧑‍💻 Roles & Sections
+## Roles & Sections
 
 Each team member should be responsible for **one main part** of the page and have **their own branch**.
 
@@ -51,7 +51,7 @@ Suggested roles (adjust depending on team size):
 
 ---
 
-## ✅ What You Should Practice
+## What You Should Practice
 
 By the end of this activity, everyone should have practiced:
 
@@ -170,4 +170,4 @@ This final version on main is your team landing page!
 
 ### Congratulations!
 
-- Please share your team's repo to this link:
+- Please share your team's repo to this link: https://forms.gle/w4Zs3Fx6zjSkUFkx6
