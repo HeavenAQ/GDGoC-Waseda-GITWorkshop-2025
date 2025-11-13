@@ -127,6 +127,8 @@ When you are happy with your changes:
 git status               # Check what changed
 git add .                # Stage your changes
 git commit -m "Add hero section content and style"   # Use a clear message
+git fetch
+git rebase origin/main
 git push origin feature/<name>-<section>
 ```
 
