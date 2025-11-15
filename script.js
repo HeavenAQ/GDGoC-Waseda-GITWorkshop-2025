@@ -21,6 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
       aboutSection.scrollIntoView({ behavior: "smooth" });
     });
   }
+  function toggleFn() {
+    let themeToggle = document.querySelector('#theme-toggle');
+    themeToggle.addEventListener('change', () => {document.body.classList.toggle('dark');});
+  }
+  
 
   // TODO (Optional): Add your own interaction below
   // e.g. dark mode toggle, form validation, etc.

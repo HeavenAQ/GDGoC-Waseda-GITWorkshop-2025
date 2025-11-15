@@ -118,6 +118,18 @@ body {
   opacity: 0.9;
 }
 
+.themeButton{
+  background-color: #111827;
+  color: #f9fafb;
+}
+.themeButton:active{
+  background: #333;
+}
+.dark{
+  color: white;
+  background: #444;
+}
+
 /* ==============
    ABOUT SECTION
    ============== */
@@ -199,3 +211,4 @@ body {
   padding: 1rem;
   color: #6b7280;
 }
+
