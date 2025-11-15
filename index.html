@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <title>Dev Circle Landing Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -57,16 +58,74 @@
            - Short paragraph about the circle
            - List of values / what you do
       -->
-      <h2>About Our Circle</h2>
-      <p>
-        We are a student developer community focused on web development,
-        design, and building real-world projects together.
+      <p class="about-label">ABOUT</p>
+      <h2 id="bla">About Our Circle</h2>
+      <p class="about-intro">
+        We are a student developer community at Waseda University where passionate students learn, build, and innovate together. Whether you're a complete beginner or experienced developer, GDG at Waseda is your space to grow.
       </p>
-      <ul class="about-list">
-        <li>💻 Front-end & back-end development</li>
-        <li>🤝 Collaborative team projects</li>
-        <li>🚀 Workshops, hack nights, and more</li>
-      </ul>
+      <div class="about-grid">
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <h4>Full-Stack Development</h4>
+          <p>Learn front-end and back-end technologies through hands-on practice. We explore modern web development tools.</p>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="bi bi-people"></i>
+          </div>
+          <h4>Collaborative Projects</h4>
+          <p>Build real-world applications in teams while learning version control, agile development, and professional collaboration skills.</p>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="bi bi-rocket-takeoff"></i>
+          </div>
+          <h4>Regular Events</h4>
+          <p>Weekly workshops, hack nights, guest speakers from industry, and hackathons to put your skills to the test.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         TEAM SECTION
+         ========================= -->
+    <section id="team" class="section team-section">
+      <p class="team-label">ABOUT</p>
+      <h2 class="team-title">The dream team of GDG</h2>
+      <p class="team-intro">We Grow Businesses for Waseda.</p>
+      <div class="team-grid">
+        <div class="team-member">
+  <div class="team-member-image">
+    <img src="public/person1.png" alt="Yali Tee">
+    <span class="team-badge">Yali Tee</span>
+  </div>
+  <div class="team-number">01</div>
+  <h4 class="team-service-title">Frontend Lead</h4>
+  <p class="team-service-desc">Leads the development of user interfaces and interactive experiences using modern frameworks like React and Vue.js</p>
+</div>
+
+<div class="team-member team-member-center">
+  <div class="team-member-image">
+    <img src="public/person2.png" alt="Metta Latisa">
+    <span class="team-badge">Metta Latisa</span>
+  </div>
+  <div class="team-number">02</div>
+  <h4 class="team-service-title">Chapter Lead</h4>
+  <p class="team-service-desc">Oversees community activities, coordinates events and workshops, and ensures an inclusive environment for all members</p>
+</div>
+
+<div class="team-member">
+  <div class="team-member-image">
+    <img src="public/person3.png" alt="Marcus Pyon">
+    <span class="team-badge">Marcus Pyon (Yusuf)</span>
+  </div>
+  <div class="team-number">03</div>
+  <h4 class="team-service-title">Backend Lead</h4>
+  <p class="team-service-desc">Manages server-side development, databases, and APIs to power robust and scalable web applications</p>
+</div>
+      </div>
     </section>
 
     <!-- =========================
