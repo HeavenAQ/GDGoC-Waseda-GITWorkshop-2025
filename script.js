@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const aboutSection = document.getElementById("about");
 
   if (heroCta && aboutSection) {
-    heroCta.addEventListener("click", () => {
-      aboutSection.scrollIntoView({ behavior: "smooth" });
-    });
+    heroCta.addEventListener("click", () => {aboutSection.scrollIntoView({ behavior: "smooth" });});
+    window.scrollTo({top:200});
   }
+  
 
   // TODO (Optional): Add your own interaction below
   // e.g. dark mode toggle, form validation, etc.
