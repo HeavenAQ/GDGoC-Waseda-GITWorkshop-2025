@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const aboutSection = document.getElementById("about");
 
   if (heroCta && aboutSection) {
-    heroCta.addEventListener("click", () => {aboutSection.scrollIntoView({ behavior: "smooth" });});
+    heroCta.addEventListener("click", () => {aboutSection.scrollIntoView({top:200, behavior: "smooth" });});
     aboutSection.scrollTo({top:200});
   }
   
